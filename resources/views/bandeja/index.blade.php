@@ -40,7 +40,7 @@
             <td>{{ $tramite->Hojas}}</td>
             <td>{{ $tramite->remitente}}</td>
             <td>{{ $tramite->nro_concejo}}</td>
-            <td>{{ $tramite->estado}}</td>
+            <td>{{ $tramite->estad}}</td>
             
             <td>
                 <form action="{{ route ('tramite.destroy',$tramite->id)}}" method="POST">
