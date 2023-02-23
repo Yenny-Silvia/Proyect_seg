@@ -24,8 +24,8 @@
 		<input id="recepcion" name="recepcion" type="text" class="form-control" tabindex="1">
 	</div>
 	
-	<a href="{{ route('seguimiento.index') }}" class="fas fa-undo" tabindex="2"></a>
-	<button type="submit" class="fas fa-save" tabindex="3"></button>
+	<a title="Cancelar" href="{{ route('seguimiento.index') }}" class="fas fa-undo" tabindex="2"></a>
+	<button title="Guardar" type="submit" class="fas fa-save" tabindex="3"></button>
 </form>
 
 

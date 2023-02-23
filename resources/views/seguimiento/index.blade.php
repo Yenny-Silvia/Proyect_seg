@@ -49,15 +49,15 @@
                 <td>{{$seguimiento->recepcion}}</td>
                 <td>
                     <form action="{{ route('seguimiento.destroy', $seguimiento->id)}}" method="POST">
-                    <a href="/seguimiento/{{$seguimiento->id }}/edit" class="fas fa-edit blue-color"></a>
+                    <a title="Editar" href="/seguimiento/{{$seguimiento->id }}/edit" class="fas fa-edit blue-color"></a>
                     
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="fas fa-trash"></button>
-                    <a href="/seguimiento/{{$seguimiento->id}}/registro" class="fas fa-file-signature"></a>
+                    <button title="Borrar" type="submit" class="fas fa-trash"></button>
+                    <a title="Recepcionar" href="/seguimiento/{{$seguimiento->id}}/registro" class="fas fa-file-signature"></a>
                     
                     @if($seguimiento->recepcion)
-                    <a href="/seguimiento/{{$seguimiento->dependenciasDestino->id}}/{{$seguimiento->tramites->id}}/create2" class="fas fa-file-import "></a>
+                    <a title="Derivar" href="/seguimiento/{{$seguimiento->dependenciasDestino->id}}/{{$seguimiento->tramites->id}}/create2" class="fas fa-file-import "></a>
                     @endif
                     
                     </div>

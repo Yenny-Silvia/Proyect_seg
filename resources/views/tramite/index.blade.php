@@ -38,12 +38,12 @@
             
             <td>
                 <form action="{{ route ('tramite.destroy',$tramite->id)}}" method="POST">
-                <a href="/tramite/{{ $tramite->id}}/edit" class="fas fa-edit"></a>
+                <a title="Editar" href="/tramite/{{ $tramite->id}}/edit" class="fas fa-edit"></a>
                 @csrf
                 @method('DELETE')
-                <button type="submit" class="fas fa-trash"></button>
+                <button title="Borrar" type="submit" class="fas fa-trash"></button>
                 
-                <a href= "/seguimiento/17/{{$tramite->id}}/create2" class="fas fa-file-import"></a>
+                <a title="Derivar" href= "/seguimiento/17/{{$tramite->id}}/create2" class="fas fa-file-import"></a>
                 
                 
                 </form>

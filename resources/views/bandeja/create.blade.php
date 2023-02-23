@@ -47,8 +47,8 @@
     
 
     
-    <a href="{{ route('tramite.index') }}" class="fas fa-undo" tabindex="7"></a>
-    <button type="submit" class="fas fa-save" tabindex="8"></button>
+    <a title="Cancelar" href="{{ route('tramite.index') }}" class="fas fa-undo" tabindex="7"></a>
+    <button title="Guardar" type="submit" class="fas fa-save" tabindex="8"></button>
 </form>
 @stop
 

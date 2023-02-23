@@ -24,8 +24,8 @@
         <input id="sigla" name="sigla" type="text" class="form-control" tabindex="2">
 	</div>
 	
-	<a href="{{ route('dependencia.index') }}" class="fas fa-undo" tabindex="3"></a>
-	<button type="submit" class="fas fa-save" tabindex="4"></button>
+	<a title="Cancelar" href="{{ route('dependencia.index') }}" class="fas fa-undo" tabindex="3"></a>
+	<button title="Guardar" type="submit" class="fas fa-save" tabindex="4"></button>
 </form>
 
 @stop

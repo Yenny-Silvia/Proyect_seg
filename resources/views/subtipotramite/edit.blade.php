@@ -28,7 +28,7 @@
 		<input style="display: none" type="text"  name="id_tipotramite" value="{{$subtipotramite->id_tipotramite}}" size="50">
 	</div>
 
-    <a href="{{ route('subtipotramite.index') }}" class="fas fa-undo" ></a>
-    <button type="submit" class="fas fa-save" ></button>
+    <a title="Cancelar" href="{{ route('subtipotramite.index') }}" class="fas fa-undo" ></a>
+    <button title="Guardar" type="submit" class="fas fa-save" ></button>
 </form>
 @stop

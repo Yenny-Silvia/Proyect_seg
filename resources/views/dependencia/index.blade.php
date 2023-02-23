@@ -38,10 +38,14 @@
                 <td>
                     
                     <form action="{{ route('dependencia.destroy', $dependencia->id)}}" method="POST">
+                    
+
+                    <acronym title="Editar">
                     <a href="/dependencia/{{$dependencia->id}}/edit" class="fas fa-edit"></a>
+                    </acronym>
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="fas fa-trash"></button>
+                    <button title="Borrar" type="submit" class="fas fa-trash"></button>
                     </form>
                 </td>
             </tr>

@@ -46,8 +46,8 @@
 		<input id="recepcion" name="recepcion" type="null" class="form-control" value="{{$seguimiento->recepcion}}">
 	</div>
 	
-	<a href="{{ route('seguimiento.index') }}" class="fas fa-undo"></a>
-	<button type="submit" class="fas fa-save"></button>
+	<a title="Cancelar" href="{{ route('seguimiento.index') }}" class="fas fa-undo"></a>
+	<button title="Guardar" type="submit" class="fas fa-save"></button>
 	
 </form>
 

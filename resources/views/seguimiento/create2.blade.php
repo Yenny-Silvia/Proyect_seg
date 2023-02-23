@@ -50,8 +50,8 @@
 		<input id="recepcion" name="recepcion" type="null" class="form-control" tabindex="5">
 	</div>
 	
-	<a href="{{ route('seguimiento.index') }}" class="fas fa-undo" tabindex="6"></a>
-	<button type="submit" class="fas fa-save" tabindex="7"></button>
+	<a title="Cancelar" href="{{ route('seguimiento.index') }}" class="fas fa-undo" tabindex="6"></a>
+	<button title="Cuardar"  type="submit" class="fas fa-save" tabindex="7"></button>
     
 </form>
 

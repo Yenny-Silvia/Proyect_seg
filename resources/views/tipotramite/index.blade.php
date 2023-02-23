@@ -38,10 +38,10 @@
                 <td>
                     
                     <form action="{{ route('tipotramite.destroy', $tipotramite->id)}}" method="POST">
-                    <a href="/tipotramite/{{$tipotramite->id}}/edit" class="fas fa-edit"></a>
+                    <a title="Editar" href="/tipotramite/{{$tipotramite->id}}/edit" class="fas fa-edit"></a>
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="fas fa-trash"></button>
+                    <button title="Borrar" type="submit" class="fas fa-trash"></button>
                     </form>
                 </td>
             </tr>

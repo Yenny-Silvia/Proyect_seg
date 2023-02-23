@@ -19,7 +19,7 @@
         <input id="sigla" name="sigla" type="text" class="form-control" value="{{$dependencia->sigla}}">
     </div>
     
-    <a href="{{ route('dependencia.index') }}" class="fas fa-undo" ></a>
-    <button type="submit" class="fas fa-save" ></button>
+    <a title="Cancelar" href="{{ route('dependencia.index') }}" class="fas fa-undo" ></a>
+    <button title="Guardar" type="submit" class="fas fa-save" ></button>
 </form>
 @stop

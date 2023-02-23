@@ -21,8 +21,8 @@
     </div>
     
 	
-	<a href="{{ route('tipotramite.index') }}" class="fas fa-undo" tabindex="2"></a>
-	<button type="submit" class="fas fa-save" tabindex="3"></button>
+	<a title="Cancelar" href="{{ route('tipotramite.index') }}" class="fas fa-undo" tabindex="2"></a>
+	<button title="Guardar" type="submit" class="fas fa-save" tabindex="3"></button>
 </form>
 
 @stop

@@ -34,8 +34,8 @@
                 </select>
        </div>
 	
-	<a href="{{ route('subtipotramite.index') }}" class="fas fa-undo" tabindex="4"></a>
-	<button type="submit" class="fas fa-save" tabindex="5"></button>
+	<a title="Cancelar" href="{{ route('subtipotramite.index') }}" class="fas fa-undo" tabindex="4"></a>
+	<button title="Guardar" type="submit" class="fas fa-save" tabindex="5"></button>
 </form>
 
 @stop

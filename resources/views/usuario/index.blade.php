@@ -28,10 +28,10 @@
             
             <td>
                 <form action="{{ route ('usuario.destroy',$usuario->id)}}" method="POST">
-                <a href="/usuario/{{ $usuario->id}}/edit" class="fas fa-edit"></a>
+                <a title="Editar" href="/usuario/{{ $usuario->id}}/edit" class="fas fa-edit"></a>
                 @csrf
                 @method('DELETE')
-                <button type="submit" class="fas fa-trash"></button>
+                <button title="Borrar" type="submit" class="fas fa-trash"></button>
                 
                 
                 </form>
